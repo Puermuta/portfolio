@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daniel Aasland</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;1,300;1,400&family=Inter:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <span class="nav-name">DA</span>
+    <ul class="nav-links">
+      <li><a href="#work">Work</a></li>
+      <li><a href="#background">Background</a></li>
+      <li><a href="https://github.com/Puermuta" target="_blank" rel="noopener">Github</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-left">
+      <h1 class="hero-name" id="hero-name" aria-label="Puermuta"></h1>
+      <p class="hero-desc">
+        Computer vision, control systems,
+        and things that work under real constraints.
+      </p>
+    </div>
+    <div class="hero-right">
+      <img src="headshot.jpg" alt="Portrait" class="hero-photo" />
+    </div>
+  </header>
+
+  <section id="work">
+    <p class="section-label">Selected Work</p>
+    <div class="section-content">
+
+      <div class="project">
+        <div class="project-top">
+          <p class="project-title">
+            <a href="https://github.com/Puermuta/Multi-Frame-Super-Resolution" target="_blank" rel="noopener">
+              Multi-Frame Super Resolution
+            </a>
+          </p>
+          <span class="project-status">In Progress</span>
+        </div>
+        <p class="project-desc">
+          Sub-pixel burst photography pipeline.
+          <em>ECC global alignment</em> followed by
+          Lucas-Kanade residual flow — implementing
+          a Google Research paper from scratch.
+        </p>
+      </div>
+
+      <div class="project">
+        <div class="project-top">
+          <p class="project-title">
+            <a href="https://github.com/Puermuta/Snake-with-Q-learning" target="_blank" rel="noopener">
+              Snake with Q-Learning
+            </a>
+          </p>
+          <span class="project-status">Rewriting</span>
+        </div>
+        <p class="project-desc">
+          Reinforcement learning visualizer.
+          Rewriting in <em>FastAPI + React / TypeScript</em>
+          for a cleaner, deployable architecture.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="background">
+    <p class="section-label">Background</p>
+    <div class="section-content">
+      <div class="timeline">
+
+        <div class="entry">
+          <p class="entry-year">2023 — 2024</p>
+          <p class="entry-title">Early university credits & national competition</p>
+          <p class="entry-desc">
+            Completed university-level mathematics and programming during high school.
+            <em>Top 10 nationally</em> in competitive programming, Norsk Informatikkolympiade.
+          </p>
+        </div>
+
+        <div class="entry">
+        <p class="entry-year">2024 — 2025</p>
+        <p class="entry-title">Norwegian Army, Signal Battalion</p>
+        <p class="entry-desc">
+          Served as a conscript technical assistant. Received a full-time offer
+          during service for a role <em>typically requiring a year of
+          further education</em> — becoming possibly the youngest to hold the position at that time.
+        </p>
+      </div>
+      <div class="entry">
+        <p class="entry-year">2025 — 2026</p>
+        <p class="entry-title">Full-time CIS technician & 50 university credits</p>
+        <p class="entry-desc">
+          Completed 50 credits at UiT concurrently with full-time work —
+          machine learning, algorithms, OOP, databases.
+          <em>A- average</em>. Part of teams doing cutting-edge
+          development for the Army's CIS and communication capabilities.
+        </p>
+      </div>
+        <div class="entry">
+          <p class="entry-year">2026 — 2027</p>
+          <p class="entry-title">Gap year</p>
+          <p class="entry-desc">
+            Still building. <em>MFSR pipeline</em>, Q-learning visualizer,
+            and whatever comes next.
+          </p>
+        </div>
+
+        <div class="entry">
+          <p class="entry-year">2027 →</p>
+          <p class="entry-title">NTNU — Robotics & Cybernetics</p>
+          <p class="entry-desc">
+            Incoming. Drawn to estimation, feedback,
+            and <em>control under uncertainty</em>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <p class="section-label">Contact</p>
+    <div class="section-content">
+      <p class="contact-desc">
+        Open to <em>research collaborations</em>, internships,
+        and interesting problems.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:daniel@aas.land">daniel@aas.land</a>
+        <a href="https://github.com/Puermuta" target="_blank" rel="noopener">Github</a>
+        <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <ul class="footer-links">
+      <li><a href="https://github.com/Puermuta" target="_blank" rel="noopener">Github</a></li>
+      <li><a href="#" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="mailto:daniel@aas.land">Mail</a></li>
+    </ul>
+    <span class="footer-copy">2026</span>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
